@@ -4,12 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<!-- 안드로이드 -->
-	<meta name="viewport" content="user-scalable=0;"/>
-	<!-- 아이폰 --> 
-	
+	<meta name="viewport" content="user-scalable=0;" />
+	<!-- 아이폰 -->
+
 	<title>introduce</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,7 +22,7 @@
 	<!-- 아이콘 -->
 	<link rel="icon" href="image/favicon.ico" type="image/x-icon" sizes="180x180">
 
-	<link rel="stylesheet" href="css/intro.css">
+	<link rel="stylesheet" href="css/intro copy 2.css">
 	<script src="js/intro.js"></script>
 </head>
 
@@ -33,23 +34,47 @@
 		<div class="char">
 			<img src="image/char_cow.png" alt="cow">
 		</div>
+
 		<div class="desk">
-			<h3>안녕하세요!</h3>
-			<h3>자 그럼 너가 이제 어떤 운세를 볼건지 선택해줘</h3>
+			<!--  -->
+
+			<div class="content-slider">
+				<div class="slider">
+					<div class="mask">
+						<ul>
+							<li class="anim1">
+								<div class="quote"><br><br>운세에 대해 잘 아는 사람도<br>있겠지만 모르는 사람도 있을 수 있으니<br>한번 설명할께 </div>
+							</li>
+							<li class="anim2">
+								<div class="quote"><br><br>운세를 사전적으로 풀이하면 <br> 운명이나 운수를 총칭하는 말이야 </div>
+							</li>
+							<li class="anim3">
+								<div class="quote"><br>운세는 앞으로의 <br> 나의 운 흐름을 확인할 수도 있고<br> 고민이 있는 일들에 대해<br> 해답을 찾아갈 수 있어~</div>
+							</li>
+							<li class="anim4">
+								<div class="quote"><br>학업 사업 연애 건강등등 <br>다양한 문제들로 고민하고 있는 분들에게<br> 조언을 주어<br> 좋은 결과를 맞이할 수 있도록<br> 도움을 주고 있어 </div>
+							</li>
+							<li class="anim5">
+								<div class="quote"><br>운세상담에도 여러가지가 있는데<br>우리가 할 건 <br>사주팔자(태어난 년/월/일)을 풀이하여<br> 미래에 벌어질 일을 예측하는<br> 역학상담을 할거야</div>
+							</li>
+							
+
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			
 			<div class="buttons">
 				<button onclick="today_luck();" class="today">
-					<h2>오늘의 운세</h2>
+					<h2>응</h2>
 				</button>
 				<button onclick="affection_luck();" class="affection">
-					<h2>애정운</h2>
+					<h2>아니</h2>
 				</button>
-				<button onclick="today_luck();" class="today">
-					<h2>건강운</h2>
-				</button>
-				<button onclick="affection_luck();" class="affection">
-					<h2>재물운</h2>
-				</button>
-			</div>
+
+		</div>
+		
 		</div>
 	</div>
 </body>

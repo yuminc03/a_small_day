@@ -151,6 +151,25 @@ h3 {
     transform: scale(1);
 }
 
+.door3{
+    /* border: 1px solid red; */
+    background: url("../image/door2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 189px;
+    height: 368px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, .0) inset;
+    transition: 0.6s;
+    transform-origin: left;
+    cursor: pointer;
+    transform: scale(1);
+}
+
 .door2 {
     /* border: 1px solid red; */
     background: url("../image/door.png");
