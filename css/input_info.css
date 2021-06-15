@@ -75,7 +75,7 @@ img.bg {
     border: 2px solid rgb(251, 255, 0);
     margin: 20px;
     padding: 10px;
-    width: 50%;
+    width: 40%;
     height: 40%;
     display: inline-block;
     align-items: center;
@@ -88,19 +88,21 @@ img.bg {
 .text1 {
     background-color: #e9e9e9;
     border: 2px solid rgb(71, 71, 71);
-    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 5px 2px;
     font-weight: bold;
     color: rgb(71, 71, 71);
     font-size: 30px;
+    margin: 5px;
     padding: 5px;
     border-radius: 10px;
 }
+select{
+    height: 65px;
+}
 
-.name1 {
+.name1, .birth, .gender {
     /* border: 1px solid red; */
     text-align: center;
     display: flex;
@@ -110,23 +112,21 @@ img.bg {
     justify-content: center;
 }
 
-.birth {
-    /* border: 1px solid red; */
-    text-align: center;
-    display: inline;
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.gender {
-    /* border: 1px solid red; */
+/* .birth {
     text-align: center;
     display: flex;
     margin: 20px;
     align-items: center;
     justify-content: center;
 }
+
+.gender {
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+} */
 
 input {
     height: 50px;
@@ -145,9 +145,8 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: black;
-    margin: 10px;
 }
 
 h3 {
