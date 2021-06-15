@@ -104,7 +104,7 @@ h2 {
   margin-right: -100px;
 }
 
-.buttons>button {
+.buttons > button {
   background-color: #fff;
   width: 150px;
   height: 80px;
@@ -157,7 +157,14 @@ h2 {
   .buttons>button {
     width: 120px;
     height: 60px;
-    margin: 9px;
+    /* margin: 9px; */
+  }
+  .buttons h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  .quote{
+    font-size: 20px;
   }
 
   h2 {
