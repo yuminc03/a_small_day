@@ -95,7 +95,7 @@ h2 {
     /* border: 1px solid red; */
     position: absolute;
     display: inline-block;
-    top: 70%;
+    top: 40%;
     left: 50%;
     width: 400px;
     height: 200px;
@@ -105,31 +105,28 @@ h2 {
 
 .buttons > button {
     background-color: #fff;
-    width: 150px;
-    height: 80px;
+    width: 70px;
+    height: 60px;
     text-align: center;
     font-size: 20px;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     transition: 0.6s;
-}
+  }
+  
+  .buttons button h2{
+    font-size: 30px;
+  }
 
-.today:hover {
+  .yes:hover {
     opacity: 30%;
-}
+  }
+  
+  .no:hover {
+    opacity: 30%;
+  }
 
-.affection:hover {
-    opacity: 30%;
-}
-
-.health:hover {
-    opacity: 30%;
-}
-
-.riches:hover {
-    opacity: 30%;
-}
 
 @media screen and (max-width: 780px) {
     body {
