@@ -76,6 +76,11 @@ h3{
     font-size: 30px;
     color: black;
 }
+#resultStr{
+    font-size: 80px;
+    color: black;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 780px) {
 
