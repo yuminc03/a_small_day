@@ -1,4 +1,4 @@
-const name = "소소한";
+const name;
 
 
 window.onload = function(){
