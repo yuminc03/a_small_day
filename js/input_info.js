@@ -1,5 +1,16 @@
+const name = "소소한";
+
+
+window.onload = function(){
+  const name_str = name;
+  let message = name_str + "님의 운세 결과는..?";
+
+  let result = document.getElementById('resultStr');
+  result.innerHTML = message;
+}
+
 function userInfo() {
-  const name = document.getElementById("full_name"); //사용자 이름
+  name = document.getElementById("full_name"); //사용자 이름
   //사용자 생년월일
   const birth_year = document.getElementById("birth_year").value;
   var target = document.getElementById("birth_month"); //사용자 생월
@@ -15,11 +26,4 @@ function userInfo() {
     }
   })
   const users_gender = user_gender;
-
-  document.write(name);
-  document.write(birth_year);
-  document.write(birth_month);
-  document.write(birth_days);
-  document.write(users_gender);
-
 }
