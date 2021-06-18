@@ -1,11 +1,11 @@
 let name, birth_year, birth_month, birth_days;
 
-window.onload = function(){
+window.onload = function () {
   const name_str = this.name;
   const birth_year = this.birth_year;
   const birth_month = this.birth_month;
   const birth_days = this.birth_days;
-  
+
   let message = birth_year + "." + birth_month + "." + birth_days + ".";
   massage += name_str + "님의 운세 결과는..?";
 
@@ -30,4 +30,12 @@ function userInfo() {
     }
   })
   const users_gender = user_gender;
+
+  const state = {
+    name: this.name,
+    birthYear: birth_year,
+    birthMonth: birth_month,
+    brithDay: birth_days
+  };
+  history.pushState(state, '', '/loading');
 }
