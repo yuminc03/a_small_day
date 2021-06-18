@@ -17,6 +17,15 @@ body {
 
     overflow-x: hidden;/*가로 스크롤바 없애기*/
     overflow-y: hidden;/*세로 스크롤바 없애기*/
+
+    
+    /* 드래그 방지 */
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  
 }
 
 .container{
@@ -31,14 +40,15 @@ body {
 .form1{
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(190, 198, 199);
-    margin: 10px;
+    margin: 80px;
     padding: 10px;
     width: 50%;
     height: 60%;
+    left: 20%;
     display: inline-block;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: fixed;
     text-align: center;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -50,12 +60,27 @@ body {
     padding: 10px;
     margin: 20px;
 }
-.btn_yes, .btn_no{
+.btn_yes {
+    position: fixed;
     width: 180px;
     height: 60px;
     text-align: center;
     border: 2px solid black;
     border-radius: 20px;
+    bottom: 50px;
+    left: 550px;
+}
+
+ .btn_no{
+    position: fixed;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    bottom: 50px;
+    left: 800px;
+
 }
 .btn_yes{
     background-color: #24ff5b;
@@ -93,8 +118,14 @@ h3{
         overflow-x: hidden;
     }
     
-    .container {
+    /* .container {
         width: 100%;
-    }
+    } */
+    
+
+    .form1{
+        padding: 10px;
+        width: 800%;
+        height: 1000%;	    }
 
 }

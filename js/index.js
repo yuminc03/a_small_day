@@ -18,7 +18,7 @@ function otherPage(){
   location.href = "hello.html";
 }
 
-$(function() {
+$(  function() {
   var letters = $('.jump').text().split('');
   var spans = '<span>' + letters.join('</span><span>') + '</span>';
   $('.jump').html(spans);

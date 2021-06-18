@@ -1,4 +1,4 @@
 function printName()  {
-    const name = document.getElementById('name').value;
-    document.getElementById("result").innerText = name;
-  }
+  const name = document.getElementById('name').value;
+  document.getElementById("result").innerText = name;
+}
