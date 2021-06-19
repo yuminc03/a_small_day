@@ -24,15 +24,15 @@
 
     <link rel="stylesheet" href="css/input_info.css">
     <script src="js/input_info.js"></script>
+    <!-- <script src="js/imformation.js"></script> -->
 
 </head>
-
 
 <body>
     <div class="container">
 
         <div class="info">
-            <from class="form1">
+            <form class="form1">
                 <div class="name1">
                     <label for='full-name'>
                         <h2>이름: </h2>
@@ -184,22 +184,25 @@
                         <h2>남: </h2>
                     </label>
                     <input name="gender_type" type="radio" value="남" class="text1" />
+
                     <label id="gender_type_2" class="radio_label">
                         <h2>여: </h2>
                     </label>
                     <input name="gender_type" type="radio" value="여" checked="checked" class="text1" />
                 </div>
                 <button class="btn_submit" onclick="userInfo()">
-                    <!-- <a href="loading.html"> -->
-                    <h2>제출</h2>
-                <!-- </a> -->
+                    <a href="loading.html">
+                        <h2>제출</h2>
+                    </a>
                 </button>
-            </from>
+            </form>
 
         </div>
-        <h5>생년월일 성별 이름을 적어주시고 제출해줘</h5>
-        <img class="tallk" src="image/talk.png">
-
+        <div class="explain">
+            <h5>생년월일 성별 이름을 적어주시고 제출해줘
+            </h5>
+            <img class="tallk" src="image/talk.png">
+        </div>
     </div>
 </body>
 
