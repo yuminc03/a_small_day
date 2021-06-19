@@ -1,10 +1,11 @@
 // let name, birth_year, birth_month, birth_days;
+// let name, birth_year, birth_month, birth_days;
 
 function info() {
-  const name_str = this.name;
-  const birth_year = this.birth_year;
-  const birth_month = this.birth_month;
-  const birth_days = this.birth_days;
+  const name_str = userInfo.name;
+  const birth_year = userInfo.birth_year;
+  const birth_month = userInfo.birth_month;
+  const birth_days = userInfo.birth_days;
 
   let message = birth_year + "." + birth_month + "." + birth_days + ".";
   message += name_str + "님의 운세 결과는..?";
@@ -22,7 +23,7 @@ function userInfo() {
   let targetDate = document.getElementById("birth_days"); //사용자 생일
   let birth_days = targetDate.options[targetDate.selectedIndex].text;
 
-  document.id.action = "location.html";
+  document.id.action = "../riches_loading.html";
   document.id.submit();
   // const gender = document.getElementsByName("gender_type");
 
