@@ -1,17 +1,18 @@
 // let name, birth_year, birth_month, birth_days;
 
 function info() {
-    const name_str = this.name;
-    const birth_year = this.birth_year;
-    const birth_month = this.birth_month;
-    const birth_days = this.birth_days;
-  
-    let message = birth_year + "." + birth_month + "." + birth_days + ".";
-    message += name_str + "님의 운세 결과는..?";
-  
-    let result = document.getElementById('resultStr');
-    result.innerHTML = message;
+  const name_str = this.name;
+  const birth_year = this.birth_year;
+  const birth_month = this.birth_month;
+  const birth_days = this.birth_days;
+
+  let message = birth_year + "." + birth_month + "." + birth_days + ".";
+  message += name_str + "님의 운세 결과는..?";
+
+  let result = document.getElementById('resultStr');
+  result.innerHTML = message;
 }
+
 function userInfo() {
   let name = document.getElementById("full_name").value; //사용자 이름
   //사용자 생년월일
@@ -20,6 +21,9 @@ function userInfo() {
   let birth_month = target.options[target.selectedIndex].text;
   let targetDate = document.getElementById("birth_days"); //사용자 생일
   let birth_days = targetDate.options[targetDate.selectedIndex].text;
+
+  document.id.action = "location.html";
+  document.id.submit();
   // const gender = document.getElementsByName("gender_type");
 
   // let user_gender;
@@ -37,4 +41,5 @@ function userInfo() {
   //   brithDay: birth_days
   // };
   // history.pushState(state, '', '/loading.html');
+
 }
