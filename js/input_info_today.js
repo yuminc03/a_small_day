@@ -1,5 +1,4 @@
 // let name, birth_year, birth_month, birth_days;
-// let name, birth_year, birth_month, birth_days;
 
 function info() {
   const name_str = userInfo.name;

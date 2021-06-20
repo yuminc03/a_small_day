@@ -118,14 +118,15 @@ h3{
         overflow-x: hidden;
     }
     
-    /* .container {
+    .container {
         width: 100%;
-    } */
+    }
     
 
     .form1{
         padding: 10px;
         width: 800%;
-        height: 1000%;	    }
+        height: 1000%;	    
+    }
 
 }
