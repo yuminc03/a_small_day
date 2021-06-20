@@ -156,8 +156,10 @@ h3 {
     background-position: center center;
     width: 189px;
     height: 368px;
-    position: fixed;
-    top: 41.7%;
+    /* position: fixed; */
+    position: absolute;
+    /* top: 41.7%; */
+    top: 50%;
     right: 50%;
     box-sizing: border-box;
     border-radius: 3px;
@@ -175,8 +177,10 @@ h3 {
     background-position: center center;
     width: 189px;
     height: 368px;
-    position: fixed;
-    top: 41.7%;
+    /* position: fixed; */
+    position: absolute;
+    /* top: 41.7%; */
+    top: 50%;
     left: 50%;
     box-sizing: border-box;
     border-radius: 3px;
@@ -194,8 +198,10 @@ h3 {
     background-position: center center;
     width: 189px;
     height: 368px;
-    position: fixed;
-    top: 41.7%;
+    /* position: fixed; */
+    position: absolute;
+    /* top: 41.7%; */
+    top: 50%;
     left: 50%;
     box-sizing: border-box;
     border-radius: 3px;
@@ -253,7 +259,7 @@ h3 {
     }
     .perspective  {
         bottom: 12%;
-        max-width:100%;
+        max-width:70%;
         max-height:auto;
     }
 
@@ -265,29 +271,28 @@ h3 {
     }
 
     .door1{
-        top: 22%;
-        width: 46%;
-        height: 50%;
+        width: 100px;
+        top: 11%;
+        width: 60%;
+        height: 100%;
         
     }
     .door2{
-        top: 22%;
-        width: 46%;
-        height: 50%;
-        
+        width: 100px;
+        top: 11%;
+        width: 60%;
+        height: 100%;
     }
 
     .door3{
-        top: 22%;
-        width: 46%;
-        height: 50%;
+        width: 100px;
+        top: 11%;
+        width: 60%;
+        height: 100%;
     }
 
     .name{
         top: 75%;
     }
-    
-    
-
 }
 
