@@ -265,23 +265,22 @@ h3 {
     }
 
     .door1{
-        top: 19%;
+        top: 20%;
         width: 46%;
         height: 50%;
         
     }
     .door2{
-        top: 19%;
+        top: 20%;
         width: 46%;
         height: 50%;
         
     }
 
     .door3{
-        top: 42%;
-        width: 30%;
-        height: 27%;
-        
+        top: 20%;
+        width: 46%;
+        height: 50%;
     }
 
     .name{
